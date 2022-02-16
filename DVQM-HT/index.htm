@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+   
+    <title>Deep VQA based on a Novel Hybrid Training Methodology</title>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+       <link rel="stylesheet" href="../css/style.css">
+</head>
+
+
+<body id="page-top">
+    <div class="page-container">
+        <div class="inner">
+            <div class="container">
+                <div class="row">
+                    <div class="row vertical-align">
+  
+                        <div class="col-md-10">
+                            <div class="title">
+                                <h1><center>Deep VQA based on a Novel Hybrid Training Methodology</center></h1>
+                                <div class="container-sm">
+								  <div class="row justify-content-md-center">									                                       
+                                        <div class="col-sm-auto">
+                                            <p><a href='https://ChenFeng-Bristol.github.io/'>Chen Feng</a></p>
+                                        </div>
+										<div class="col-sm-auto">
+                                            <p><a href='https://seis.bristol.ac.uk/~eexfz/index.htm'>Fan Zhang</a></p>
+                                        </div>		
+									<div class="col-sm-auto">
+                                            <p><a href='https://david-bull.github.io/'>David Bull</a></p>
+                                        </div>
+									
+                                    </div>
+									<center><p>University of Bristol</p></center>
+                                </div>
+                            </div>
+                        </div>
+			<div class="col-md-2">
+			    <p><a href='https://www.bristol.ac.uk'><img src="../uob-logo.svg" width="100%" height="20%" alt=""></a></p>
+			    <p><a href='https://www.bristol.ac.uk/vision-institute'><img src="../bvilogo.png" width="100%" height="20%" alt=""></a></p>
+			     <p><a href='https://vilab.blogs.bristol.ac.uk'><img src="../VILogo.jpg" width="100%" height="20%" alt=""></a></p>
+			    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-md">
+                <h2>About</h2>
+                <p>In recent years, deep learning techniques have been widely applied to video quality assessment (VQA), showing significant potential to achieve higher correlation performance with subjective opinions compared to conventional approaches. However, these methods are often developed based on limited training materials and evaluated through cross validation, due to the lack of large scale subjective databases. In this context, this paper proposes a new hybrid training methodology, which generates large volumes of training data by using quality indices from an existing perceptual quality metric, VMAF, as training targets, instead of actual subjective opinion scores. An additional shallow CNN is also employed for temporal pooling, which was trained based on a small subjective video database. The resulting Deep Video Quality Metric (based on Hybrid Training), DVQM-HT, has been fully tested on eight HD subjective video databases, and consistently exhibits higher correlation with perceptual quality compared to other deep quality assessment methods, with an average SROCC value of 0.8263. 
+ </p>
+            </div>
+						<hr />
+            <div class="container-md">
+                <h2 id="poster">Source code</h2>
+            Source code from github will be avaliable very soon.    
+
+
+            </div>
+            <hr />
+            <div class="container-md">
+                <h2 id="poster">Model</h2>
+                <p><img src="3DCNN.png" width="105%" height="40%" alt=""></a></p>
+
+
+            </div>
+			<hr />
+			<div class="container-md">
+                <h2 id="poster">Results</h2>
+				<p>Performance of the proposed method and other benchmark approaches on eight test databases. The values in each cell x(y) correspond to the SROCC value (x) and F-test result (y) at 95\% confidence interval. y=1 suggests that the metric is superior to DVQM-HT (y=-1 if the opposite is true), while y=0 indicates that there is no significant difference between them. The figures in color red and blue indicate the highest and second highest SROCC values respectively in each column.</p>
+                <p><img src="results.png" width="105%" height="40%" alt=""></a></p>
+
+
+            </div>
+			<hr />
+            <div class="container-md">
+                <h2>Citation</h2>
+				<pre class="citation">
+
+@inproceedings{zhang2020enhancing,
+  title={Enhancing VVC through CNN-based post-processing},
+  author={Zhang, Fan and Feng, Chen and Bull, David R},
+  booktitle={2020 IEEE International Conference on Multimedia and Expo (ICME)},
+  pages={1--6},
+  year={2020},
+  organization={IEEE}
+}<A HREF="https://ieeexplore.ieee.org/abstract/document/9102912">[paper]</A></pre>
+
+            </div>
+			<hr />
+            
+
+        </div>
+    </div>
+</body>
+
+</html>
