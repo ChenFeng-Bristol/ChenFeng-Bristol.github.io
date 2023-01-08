@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+   
+    <title>Enhancing HDR Video Compression through CNN-based Effective Bit Depth Adaptation</title>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+       <link rel="stylesheet" href="../css/style.css">
+</head>
+
+
+<body id="page-top">
+    <div class="page-container">
+        <div class="inner">
+            <div class="container">
+                <div class="row">
+                    <div class="row vertical-align">
+  
+                        <div class="col-md-10">
+                            <div class="title">
+                                <h1><center>Enhancing HDR Video Compression through CNN-based Effective Bit Depth Adaptation</center></h1>
+                                <div class="container-sm">
+								  <div class="row justify-content-md-center">									                                       
+                                        <div class="col-sm-auto">
+                                            <p><a href='https://ChenFeng-Bristol.github.io/'>Chen Feng</a></p>
+                                        </div>
+										<div class="col-sm-auto">
+                                            <p>Zihao Qi</p>
+                                        </div>
+										<div class="col-sm-auto">
+                                            <p><a href='https://danielism97.github.io/'>Duolikun Danier</a></p>
+                                        </div>
+										<div class="col-sm-auto">
+                                            <p><a href='https://seis.bristol.ac.uk/~eexfz/index.htm'>Fan Zhang</a></p>
+                                        </div>		
+										<div class="col-sm-auto">
+                                            <p>Xiaozhong Xu</p>
+                                        </div>
+																				<div class="col-sm-auto">
+                                            <p>Shan Liu</p>
+                                        </div>
+									<div class="col-sm-auto">
+                                            <p><a href='https://david-bull.github.io/'>David Bull</a></p>
+                                        </div>
+									
+                                    </div>
+									<center><p>University of Bristol</p></center>
+                                </div>
+                            </div>
+                        </div>
+			<div class="col-md-2">
+			    <p><a href='https://www.bristol.ac.uk'><img src="../uob-logo.svg" width="100%" height="20%" alt=""></a></p>
+			    <p><a href='https://www.bristol.ac.uk/vision-institute'><img src="../bvilogo.png" width="100%" height="20%" alt=""></a></p>
+			     <p><a href='https://vilab.blogs.bristol.ac.uk'><img src="../VILogo.jpg" width="100%" height="20%" alt=""></a></p>
+			    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-md">
+                <h2>About</h2>
+                <p>It is well known that high dynamic range (HDR) video can provide more immersive visual experiences compared to conventional standard dynamic range content. However, HDR content is typically more challenging to encode due to the increased detail associated with the wider dynamic range. In this paper, we improve HDR compression performance using the effective bit depth adaptation approach (EBDA). This method reduces the effective bit depth of the original video content before encoding and reconstructs the full bit depth using a CNN-based up-sampling method at the decoder. In this work, we modify the MFRNet network architecture to enable multiple frame processing, and the new network, multi-frame MFRNet, has been integrated into the EBDA framework using two Versatile Video Coding (VVC) host codecs: VTM 16.2 and the Fraunhofer Versatile Video Encoder (VVenC 1.4.0). The proposed approach was evaluated under the JVET HDR Common Test Conditions using the Random Access configuration. The results show coding gains over both the original VVC VTM 16.2 and VVenC 1.4.0 (w/o EBDA) on JVET HDR tested sequences, with average bitrate savings of 2.9% (over VTM) and 4.8% (against VVenC) based on the Bjontegaard Delta measurement. </p>
+            </div>
+						<hr />
+            <div class="container-md">
+                <h2 id="poster">Source code</h2>
+            The source code of multi-frame MFRNet has been released at <a HREF="https://github.com/fan-aaron-zhang/MF-MFRNet">here</a>   
+
+
+            </div>
+
+		<hr />
+            <div class="container-md">
+                <h2 id="poster">Framework and Model</h2>
+                <p><img src="../HDR-BD/framework.PNG" width="95%" height="40%" alt=""></p>
+				<p><img src="../HDR-BD/model.PNG" width="65%" height="30%" alt=""></p>
+
+            </div>
+			<hr />
+		<div class="container-md">
+                <h2 id="poster">Results</h2>
+	 	<p>Compression results of the proposed HDR EBDA approach with VTM 16.2 and VVenC 1.4.0 on the JVET HDR CTC tested sequences.</p>
+                <p> <img src="../HDR-BD/results.PNG" width="90%" height="40%" alt=""></p>
+
+
+            </div>
+			<hr />
+            <div class="container-md">
+                <h2>Citation</h2>
+				<pre class="citation">
+@misc{HDR_BD,
+  doi = {10.48550/ARXIV.2207.08634},
+  url = {https://arxiv.org/abs/2207.08634},
+  author = {Feng, Chen and Qi, Zihao and Danier, Duolikun and Zhang, Fan and Xu, Xiaozhong and Liu, Shan and Bull, David},
+  keywords = {Image and Video Processing (eess.IV), FOS: Electrical engineering, electronic engineering, information engineering, FOS: Electrical engineering, electronic engineering, information engineering},
+  title = {Enhancing HDR Video Compression through CNN-based Effective Bit Depth Adaptation},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}
+}
+}<A HREF="https://arxiv.org/abs/2202.08595">[paper]</A></pre>
+
+            </div>
+			<hr />
+            
+
+        </div>
+    </div>
+</body>
+
+</html>
