@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+   
+    <title> RankDVQA: Deep VQA based on Ranking-inspired Hybrid Training</title>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+       <link rel="stylesheet" href="../css/style.css">
+</head>
+
+
+<body id="page-top">
+    <div class="page-container">
+        <div class="inner">
+            <div class="container">
+                <div class="row">
+                    <div class="row vertical-align">
+  
+                        <div class="col-md-10">
+                            <div class="title">
+                                <h1><center> RankDVQA: Deep VQA based on Ranking-inspired Hybrid Training</center></h1>
+                                <div class="container-sm">
+								  <div class="row justify-content-md-center">									                                       
+                                        <div class="col-sm-auto">
+                                            <p><a href='https://ChenFeng-Bristol.github.io/'>Chen Feng</a></p>
+                                        </div>	
+									<div class="col-sm-auto">
+                                            <p><a href='https://danier97.github.io/'>Duolikun Danier</a></p>
+                                        </div>
+										<div class="col-sm-auto">
+                                            <p><a href='https://seis.bristol.ac.uk/~eexfz/index.htm'>Fan Zhang</a></p>
+                                        </div>		
+									<div class="col-sm-auto">
+                                            <p><a href='https://david-bull.github.io/'>David Bull</a></p>
+                                        </div>
+									
+                                    </div>
+									<center><p>University of Bristol</p></center>
+                                </div>
+                            </div>
+                        </div>
+			<div class="col-md-2">
+			    <p><a href='https://www.bristol.ac.uk'><img src="../uob-logo.svg" width="100%" height="20%" alt=""></a></p>
+			    <p><a href='https://www.bristol.ac.uk/vision-institute'><img src="../bvilogo.png" width="100%" height="20%" alt=""></a></p>
+			     <p><a href='https://vilab.blogs.bristol.ac.uk'><img src="../VILogo.jpg" width="100%" height="20%" alt=""></a></p>
+			    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-md">
+                <h2>About</h2>
+                <p>In recent years, deep learning techniques have shown significant potential for improving video quality assessment (VQA), achieving higher correlation with subjective opinions compared to conventional approaches. However, the development of deep VQA methods has been constrained by the limited availability of large-scale training databases and ineffective training methodologies. As a result, it is difficult for deep VQA approaches to achieve consistently superior performance and model generalization. In this context, this paper proposes new VQA methods based on a two-stage training methodology which motivates us to develop a large-scale VQA training database without employing human subjects to provide ground truth labels. This method was used to train a new transformer-based network architecture, exploiting quality ranking of different distorted sequences rather than minimizing the distance from the ground-truth quality labels. The resulting deep VQA methods (for both full reference and no reference scenarios), FR- and NR-RankDVQA, exhibit consistently higher correlation with perceptual quality compared to the state-of-the-art conventional and deep VQA methods, with average SROCC values of 0.8972 (FR) and 0.7791 (NR) over eight test sets without performing cross-validation.</p>
+            </div>
+						<hr />
+            <div class="container-md">
+                <h2 id="poster">Source code</h2>
+            Source code from github will be avaliable very soon.    
+
+
+            </div>
+
+		<hr />
+            <div class="container-md">
+                <h2 id="poster">Model</h2>
+                <p><img src="../RankDVQA/framework.png" width="100%" height="40%" alt=""></p>
+
+
+            </div>
+			<hr />
+		<div class="container-md">
+                <h2 id="poster">Results</h2>
+	 	<p>Performance of the proposed methods, other benchmark approaches and ablation study variants on eight HD test databases.</p>
+                <p> <img src="../RankDVQA/results.png" width="100%" height="35%" alt=""></p>
+				<p>isual examples demonstrating the superiority of the proposed FR quality metric.</p>
+                <p> <img src="../RankDVQA/subjective.png" width="100%" height="35%" alt=""></p>
+
+
+            </div>
+			<hr />
+            <div class="container-md">
+                <h2>Citation</h2>
+			<pre class="citation">
+@misc{feng2023rankdvqa,
+	  title={RankDVQA: Deep VQA based on Ranking-inspired Hybrid Training}, 
+	  author={Chen Feng and Duolikun Danier and Fan Zhang and David R. Bull},
+	  year={2023},
+	  eprint={2202.08595},
+	  archivePrefix={arXiv},
+	  primaryClass={eess.IV}}<A HREF="https://arxiv.org/abs/2202.08595">[paper]</A></pre>
+				
+
+
+            </div>
+			<hr />
+            
+
+        </div>
+    </div>
+</body>
+
+</html>
